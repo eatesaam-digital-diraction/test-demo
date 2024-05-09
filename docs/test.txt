@@ -1,0 +1,5 @@
+Hey Pythonistas,
+
+Before we start, let’s all agree that asyncio is a complex beast. Anyway, here’s my story.
+
+So I was working on a Python library at work which was great until one fine day my users started complaining about this issue when they try to use the library in their Jupyter notebook environments. I started digging into it and the first thing I noticed was what was rightly conveyed by the “Runtime Error”. The event loop was indeed already running:
